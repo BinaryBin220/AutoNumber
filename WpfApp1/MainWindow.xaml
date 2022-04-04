@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AutoNumber" Height="650" Width="1320" Closing="Window_Closing" Closed="Window_Closed">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="65px"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+                <TextBox Grid.Row="0" Margin="5" VerticalAlignment="Bottom" IsEnabled="True" Name="textBox1" BorderThickness="0 0 0 1" FontSize="24" FontWeight="Normal" FontFamily="Times New Roman" BorderBrush="Black" Background="White" RenderTransformOrigin="0.5,0.5" FontStyle="Italic"/>
+                <ListBox Grid.Row="1" Margin="5" IsEnabled="True" Name="listBox1" BorderThickness="0 0 0 1" FontSize="24" FontWeight="Normal" FontFamily="Times New Roman" BorderBrush="Black" Background="White" RenderTransformOrigin="0.5,0.5" FontStyle="Italic"/>
+                <Image Grid.Row="2" Margin="5,5,5,5" IsEnabled="True" Name="pictureBox1" RenderTransformOrigin="0.5,0.5"/>
+            </Grid>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                    <RowDefinition Height="80px"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Name="button1" Content="Voice" ToolTip="Опис1" Margin="1,1,1,1" Background="#00DDDDDD" BorderBrush="Black" Click="button1_Click"/>
+                <Button Grid.Row="1" Name="button2" Content="Image" ToolTip="Опис2" Margin="1" Background="#00DDDDDD" BorderBrush="Black" Click="button2_Click"/>
+                <Button Grid.Row="2" Name="button3" Content="Start" ToolTip="Опис3" Margin="1" Background="#00DDDDDD" BorderBrush="Black" Click="button3_Click"/>
+                <Button Grid.Row="3" Name="button4" Content="Save" ToolTip="Опис4" Margin="1" Background="#00DDDDDD" BorderBrush="Black" Click="button4_Click"/>
+                <Button Grid.Row="4" Name="button5" Content="Clear" ToolTip="Опис5" Margin="1" Background="#00DDDDDD" BorderBrush="Black" Click="button5_Click"/>
+                <Button Grid.Row="5" Name="button6" Content="Help" ToolTip="Опис6" Margin="1" Background="#00DDDDDD" BorderBrush="Black" Click="button6_Click"/>
+            </Grid>
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="-98,282,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
