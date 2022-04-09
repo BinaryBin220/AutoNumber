@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DvQpNNWinLUXUW3XtouPlklyzn8NQm0waNdRomHKGaGQ+htau0rIGuEQN+b4/tIWUzFIczF5syGAEoJEmSkgsQ==",
+  "dgSpecHash": "ufUF3AB9MjfBVO6DobeLfT2dzL/w7oaSrEtEfC/O3ouceABGNpJyqJ3dZOCwND5cIgAILbt4r5LIwli9yEN6Sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vipbi\\Desktop\\DiplomKA\\AutoNumber\\WpfApp1\\WpfApp1.csproj",
+  "projectFilePath": "G:\\AutoNumber\\WpfApp1\\WpfApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vipbi\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\vipbi\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
